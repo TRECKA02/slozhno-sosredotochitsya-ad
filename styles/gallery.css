@@ -17,7 +17,7 @@
 @media (width >= 768px) {
     .gallery {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 1.25fr 1.5fr;
+        grid-template-rows: 1fr 1.25fr 1.65fr;
         grid-template-areas:
             "wide wide food"
             "cassette books food"
@@ -35,7 +35,6 @@
 
     .gallery__image:nth-child(1) {
         grid-area: wide;
-        padding: 10px 0 0 0;
     }
 
     .gallery__image:nth-child(2) {
